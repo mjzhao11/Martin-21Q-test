@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BF7D0B921CF8C04000FCC2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7D0B821CF8C04000FCC2F /* AppDelegate.swift */; };
+		5BF7D0BB21CF8C04000FCC2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7D0BA21CF8C04000FCC2F /* ViewController.swift */; };
+		5BF7D0BE21CF8C04000FCC2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF7D0BC21CF8C04000FCC2F /* Main.storyboard */; };
+		5BF7D0C121CF8C04000FCC2F /* Martin_21Q_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7D0BF21CF8C04000FCC2F /* Martin_21Q_test.xcdatamodeld */; };
+		5BF7D0C321CF8C05000FCC2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF7D0C221CF8C05000FCC2F /* Assets.xcassets */; };
+		5BF7D0C621CF8C05000FCC2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF7D0C421CF8C05000FCC2F /* LaunchScreen.storyboard */; };
+		5BF7D0D121CF8C05000FCC2F /* Martin_21Q_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7D0D021CF8C05000FCC2F /* Martin_21Q_testTests.swift */; };
+		5BF7D0DC21CF8C05000FCC2F /* Martin_21Q_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF7D0DB21CF8C05000FCC2F /* Martin_21Q_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BF7D0CD21CF8C05000FCC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BF7D0AD21CF8C04000FCC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF7D0B421CF8C04000FCC2F;
+			remoteInfo = "Martin 21Q test";
+		};
+		5BF7D0D821CF8C05000FCC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BF7D0AD21CF8C04000FCC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BF7D0B421CF8C04000FCC2F;
+			remoteInfo = "Martin 21Q test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BF7D0B521CF8C04000FCC2F /* Martin 21Q test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Martin 21Q test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF7D0B821CF8C04000FCC2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BF7D0BA21CF8C04000FCC2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BF7D0BD21CF8C04000FCC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BF7D0C021CF8C04000FCC2F /* Martin_21Q_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Martin_21Q_test.xcdatamodel; sourceTree = "<group>"; };
+		5BF7D0C221CF8C05000FCC2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BF7D0C521CF8C05000FCC2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BF7D0C721CF8C05000FCC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF7D0CC21CF8C05000FCC2F /* Martin 21Q testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Martin 21Q testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF7D0D021CF8C05000FCC2F /* Martin_21Q_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martin_21Q_testTests.swift; sourceTree = "<group>"; };
+		5BF7D0D221CF8C05000FCC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BF7D0D721CF8C05000FCC2F /* Martin 21Q testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Martin 21Q testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF7D0DB21CF8C05000FCC2F /* Martin_21Q_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Martin_21Q_testUITests.swift; sourceTree = "<group>"; };
+		5BF7D0DD21CF8C05000FCC2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BF7D0B221CF8C04000FCC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF7D0C921CF8C05000FCC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF7D0D421CF8C05000FCC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BF7D0AC21CF8C04000FCC2F = {
+			isa = PBXGroup;
+			children = (
+				5BF7D0B721CF8C04000FCC2F /* Martin 21Q test */,
+				5BF7D0CF21CF8C05000FCC2F /* Martin 21Q testTests */,
+				5BF7D0DA21CF8C05000FCC2F /* Martin 21Q testUITests */,
+				5BF7D0B621CF8C04000FCC2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BF7D0B621CF8C04000FCC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BF7D0B521CF8C04000FCC2F /* Martin 21Q test.app */,
+				5BF7D0CC21CF8C05000FCC2F /* Martin 21Q testTests.xctest */,
+				5BF7D0D721CF8C05000FCC2F /* Martin 21Q testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BF7D0B721CF8C04000FCC2F /* Martin 21Q test */ = {
+			isa = PBXGroup;
+			children = (
+				5BF7D0B821CF8C04000FCC2F /* AppDelegate.swift */,
+				5BF7D0BA21CF8C04000FCC2F /* ViewController.swift */,
+				5BF7D0BC21CF8C04000FCC2F /* Main.storyboard */,
+				5BF7D0C221CF8C05000FCC2F /* Assets.xcassets */,
+				5BF7D0C421CF8C05000FCC2F /* LaunchScreen.storyboard */,
+				5BF7D0C721CF8C05000FCC2F /* Info.plist */,
+				5BF7D0BF21CF8C04000FCC2F /* Martin_21Q_test.xcdatamodeld */,
+			);
+			path = "Martin 21Q test";
+			sourceTree = "<group>";
+		};
+		5BF7D0CF21CF8C05000FCC2F /* Martin 21Q testTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BF7D0D021CF8C05000FCC2F /* Martin_21Q_testTests.swift */,
+				5BF7D0D221CF8C05000FCC2F /* Info.plist */,
+			);
+			path = "Martin 21Q testTests";
+			sourceTree = "<group>";
+		};
+		5BF7D0DA21CF8C05000FCC2F /* Martin 21Q testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BF7D0DB21CF8C05000FCC2F /* Martin_21Q_testUITests.swift */,
+				5BF7D0DD21CF8C05000FCC2F /* Info.plist */,
+			);
+			path = "Martin 21Q testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BF7D0B421CF8C04000FCC2F /* Martin 21Q test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF7D0E021CF8C05000FCC2F /* Build configuration list for PBXNativeTarget "Martin 21Q test" */;
+			buildPhases = (
+				5BF7D0B121CF8C04000FCC2F /* Sources */,
+				5BF7D0B221CF8C04000FCC2F /* Frameworks */,
+				5BF7D0B321CF8C04000FCC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Martin 21Q test";
+			productName = "Martin 21Q test";
+			productReference = 5BF7D0B521CF8C04000FCC2F /* Martin 21Q test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BF7D0CB21CF8C05000FCC2F /* Martin 21Q testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF7D0E321CF8C05000FCC2F /* Build configuration list for PBXNativeTarget "Martin 21Q testTests" */;
+			buildPhases = (
+				5BF7D0C821CF8C05000FCC2F /* Sources */,
+				5BF7D0C921CF8C05000FCC2F /* Frameworks */,
+				5BF7D0CA21CF8C05000FCC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BF7D0CE21CF8C05000FCC2F /* PBXTargetDependency */,
+			);
+			name = "Martin 21Q testTests";
+			productName = "Martin 21Q testTests";
+			productReference = 5BF7D0CC21CF8C05000FCC2F /* Martin 21Q testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BF7D0D621CF8C05000FCC2F /* Martin 21Q testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF7D0E621CF8C05000FCC2F /* Build configuration list for PBXNativeTarget "Martin 21Q testUITests" */;
+			buildPhases = (
+				5BF7D0D321CF8C05000FCC2F /* Sources */,
+				5BF7D0D421CF8C05000FCC2F /* Frameworks */,
+				5BF7D0D521CF8C05000FCC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BF7D0D921CF8C05000FCC2F /* PBXTargetDependency */,
+			);
+			name = "Martin 21Q testUITests";
+			productName = "Martin 21Q testUITests";
+			productReference = 5BF7D0D721CF8C05000FCC2F /* Martin 21Q testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BF7D0AD21CF8C04000FCC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Martin Zhao";
+				TargetAttributes = {
+					5BF7D0B421CF8C04000FCC2F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5BF7D0CB21CF8C05000FCC2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5BF7D0B421CF8C04000FCC2F;
+					};
+					5BF7D0D621CF8C05000FCC2F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5BF7D0B421CF8C04000FCC2F;
+					};
+				};
+			};
+			buildConfigurationList = 5BF7D0B021CF8C04000FCC2F /* Build configuration list for PBXProject "Martin 21Q test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BF7D0AC21CF8C04000FCC2F;
+			productRefGroup = 5BF7D0B621CF8C04000FCC2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BF7D0B421CF8C04000FCC2F /* Martin 21Q test */,
+				5BF7D0CB21CF8C05000FCC2F /* Martin 21Q testTests */,
+				5BF7D0D621CF8C05000FCC2F /* Martin 21Q testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BF7D0B321CF8C04000FCC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF7D0C621CF8C05000FCC2F /* LaunchScreen.storyboard in Resources */,
+				5BF7D0C321CF8C05000FCC2F /* Assets.xcassets in Resources */,
+				5BF7D0BE21CF8C04000FCC2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF7D0CA21CF8C05000FCC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF7D0D521CF8C05000FCC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BF7D0B121CF8C04000FCC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF7D0BB21CF8C04000FCC2F /* ViewController.swift in Sources */,
+				5BF7D0C121CF8C04000FCC2F /* Martin_21Q_test.xcdatamodeld in Sources */,
+				5BF7D0B921CF8C04000FCC2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF7D0C821CF8C05000FCC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF7D0D121CF8C05000FCC2F /* Martin_21Q_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF7D0D321CF8C05000FCC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF7D0DC21CF8C05000FCC2F /* Martin_21Q_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BF7D0CE21CF8C05000FCC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BF7D0B421CF8C04000FCC2F /* Martin 21Q test */;
+			targetProxy = 5BF7D0CD21CF8C05000FCC2F /* PBXContainerItemProxy */;
+		};
+		5BF7D0D921CF8C05000FCC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BF7D0B421CF8C04000FCC2F /* Martin 21Q test */;
+			targetProxy = 5BF7D0D821CF8C05000FCC2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BF7D0BC21CF8C04000FCC2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF7D0BD21CF8C04000FCC2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BF7D0C421CF8C05000FCC2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BF7D0C521CF8C05000FCC2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BF7D0DE21CF8C05000FCC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BF7D0DF21CF8C05000FCC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BF7D0E121CF8C05000FCC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Martin 21Q test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin.Martin-21Q-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BF7D0E221CF8C05000FCC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Martin 21Q test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin.Martin-21Q-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BF7D0E421CF8C05000FCC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Martin 21Q testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin.Martin-21Q-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martin 21Q test.app/Martin 21Q test";
+			};
+			name = Debug;
+		};
+		5BF7D0E521CF8C05000FCC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Martin 21Q testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin.Martin-21Q-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Martin 21Q test.app/Martin 21Q test";
+			};
+			name = Release;
+		};
+		5BF7D0E721CF8C05000FCC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Martin 21Q testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin.Martin-21Q-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Martin 21Q test";
+			};
+			name = Debug;
+		};
+		5BF7D0E821CF8C05000FCC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Martin 21Q testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Martin.Martin-21Q-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Martin 21Q test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BF7D0B021CF8C04000FCC2F /* Build configuration list for PBXProject "Martin 21Q test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF7D0DE21CF8C05000FCC2F /* Debug */,
+				5BF7D0DF21CF8C05000FCC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF7D0E021CF8C05000FCC2F /* Build configuration list for PBXNativeTarget "Martin 21Q test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF7D0E121CF8C05000FCC2F /* Debug */,
+				5BF7D0E221CF8C05000FCC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF7D0E321CF8C05000FCC2F /* Build configuration list for PBXNativeTarget "Martin 21Q testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF7D0E421CF8C05000FCC2F /* Debug */,
+				5BF7D0E521CF8C05000FCC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF7D0E621CF8C05000FCC2F /* Build configuration list for PBXNativeTarget "Martin 21Q testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BF7D0E721CF8C05000FCC2F /* Debug */,
+				5BF7D0E821CF8C05000FCC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BF7D0BF21CF8C04000FCC2F /* Martin_21Q_test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BF7D0C021CF8C04000FCC2F /* Martin_21Q_test.xcdatamodel */,
+			);
+			currentVersion = 5BF7D0C021CF8C04000FCC2F /* Martin_21Q_test.xcdatamodel */;
+			path = Martin_21Q_test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BF7D0AD21CF8C04000FCC2F /* Project object */;
+}
