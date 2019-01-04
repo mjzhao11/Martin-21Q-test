@@ -1,0 +1,6 @@
+framework module Pods_Martin_21Q_test {
+  umbrella header "Pods-Martin 21Q test-umbrella.h"
+
+  export *
+  module * { export * }
+}
